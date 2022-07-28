@@ -1,0 +1,66 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* universal css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 5vw;
+}
+button {
+    background-color: #24a7ff;
+    border: none;
+    padding: 12px 25px;
+    color : #fff;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+    color: #24a7ff;
+}
+/* header area css */
+header {
+    background-color: #5C21B1;
+}
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-area img {
+    width: 8vw;
+}
+.menu-area a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #fff;
+}
+.menu-area a:hover {
+    color: #24a7ff;
+}
+
+/* intro-area css */
+.intro-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 5vh 0;
+}
+.intro-content {
+    width: 40%;
+}
+.intro-img {
+    width: 60%;
+}
+.intro-img img {
+    width: 100%;
+}
