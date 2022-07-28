@@ -13,6 +13,9 @@ body {
 h1 {
     font-size: 5vw;
 }
+h2 {
+    font-size: 3vw;
+}
 button {
     background-color: #24a7ff;
     border: none;
@@ -63,4 +66,42 @@ nav {
 }
 .intro-img img {
     width: 100%;
+}
+/* system-info-area css */
+.system-info-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 0;
+}
+.info-content {
+    width: 40%;
+}
+.info-content h2 {
+    margin: 0;
+}
+.info-img {
+    width: 60%;
+}
+.info-img img {
+    width: 100%;
+}
+.single-info {
+    padding: 2vh 0;
+}
+.single-info p {
+    margin-left: 3vw;
+}
+
+.single-info .orange {
+    color: orange;
+    margin: 0 1vw;
+}
+.single-info .light-green {
+    color: #90ee90;
+    margin: 0 1vw;
+}
+.single-info .dark-green {
+    color: #008b8b;
+    margin: 0 1vw;
 }
